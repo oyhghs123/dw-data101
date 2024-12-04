@@ -31,5 +31,32 @@ body{
 .hot{
   list-style-type:none;
   font-size:25px;
-  line
+  line-height: 50px;
+  padding: 0;
+}
+.order{
+  padding:0;
+  list-style-type:none;
+}
+
+.main img{
+  width:100%
+}
+main{
+  padding:50px;
+}
+
+.footer{
+  background:#777;
+  padding: 100px;
+}
+.addr{
+  color:#ddd
+  font-size:30px;
+
+}
+.make{
+  color: yellow;
+  text-align:right;
+  font-size:20px;
 }
