@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header,
+ul,
+.wrap {
+  display: flex;
+  align-items: center;
+  columns: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  background-color: blue;
+  height: 60px;
+  justify-content: space-between;
+}
+
+header button {
+  color: whitesmoke;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+header .wrap {
+  border: 1px solid white;
+  justify-content: space-between;
+  width: 100px;
+}
+
+header img {
+  width: 20px;
+  height: 20px;
+}
