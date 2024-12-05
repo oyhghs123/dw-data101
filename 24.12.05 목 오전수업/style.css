@@ -8,7 +8,7 @@ ul,
 .wrap {
   display: flex;
   align-items: center;
-  columns: 10px;
+  column-gap: 10px;
 }
 
 ul {
@@ -18,7 +18,6 @@ ul {
 header {
   background-color: blue;
   height: 60px;
-  justify-content: space-between;
 }
 
 header button {
@@ -28,7 +27,7 @@ header button {
   border: none;
 }
 
-header .wrap {
+header > .wrap {
   border: 1px solid white;
   justify-content: space-between;
   width: 100px;
