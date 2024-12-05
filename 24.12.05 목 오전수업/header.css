@@ -1,6 +1,7 @@
 body {
   background-color: rgb(14, 13, 13);
   color: whitesmoke;
+  font-size: 50px;
 }
 
 header {
@@ -42,7 +43,8 @@ header ul {
 }
 
 button.title {
-  font-size: 30px;
+  font-size: 100px;
+  border-color: white;
   font-weight: 900;
   color: tomato;
   background-color: transparent;

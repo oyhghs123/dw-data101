@@ -1,0 +1,31 @@
+div.img {
+  border: 2px solid tomato;
+  position: relative;
+}
+
+div.img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+div.img .ab {
+  position: absolute;
+}
+
+div.img h1 {
+  left: 50px;
+  top: 50px;
+}
+
+div.img:hover h1 {
+  transform: translate(-50% -50%) scale(1.5);
+}
+
+div.img div {
+  bottom: 50px;
+  left: 50px;
+}
+
+div.img img {
+  width: 100%;
+}
