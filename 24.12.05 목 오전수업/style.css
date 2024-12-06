@@ -12,12 +12,12 @@ ul,
 }
 
 ul {
-  list-style-type: none;
+  text-align: center;
 }
 
 header {
-  background-color: blue;
-  height: 60px;
+  background-color: red;
+  height: 100px;
 }
 
 header button {
@@ -25,6 +25,8 @@ header button {
   background-color: transparent;
   cursor: pointer;
   border: none;
+  font-size: 30px;
+  display: flex;
 }
 
 header > .wrap {
@@ -36,4 +38,14 @@ header > .wrap {
 header img {
   width: 20px;
   height: 20px;
+  color: red;
+}
+
+header > .flex > div .flex {
+  border: 1px solid yellow;
+}
+
+header > .flex {
+  border: 1px solid red;
+  justify-content: space-between;
 }

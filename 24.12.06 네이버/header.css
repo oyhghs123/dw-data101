@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: green;
+}
+
+header {
+  border: 2px solid green;
+  display: flex;
+}
+
+.flex {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  column-gap: 10px;
+}
+
+header {
+  justify-content: space-between;
+}
