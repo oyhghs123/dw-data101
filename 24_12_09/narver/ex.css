@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: calc(100vw - 20px);
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.flex {
+  display: flex;
+}
+
+header button {
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  font-size: bold;
+  border: none;
+}
+
+header.flex {
+  column-gap: 10px;
+}
