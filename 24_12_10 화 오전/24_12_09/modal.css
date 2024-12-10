@@ -1,0 +1,41 @@
+.input {
+  display: flex;
+  border: 1px solid;
+  flex-direction: column;
+  row-gap: 5px;
+  max-width: 300px;
+  color: green;
+}
+
+.input form {
+  display: flex;
+}
+
+.input form button {
+  border-radius: 0;
+  border: none;
+  height: 40px;
+  background-color: rgb(77, 182, 77);
+  color: white;
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+.input form input {
+  border-radius: 0;
+  border: 1px solid lightgray;
+  border-right: 0;
+  padding-left: 10px;
+  outline: none;
+}
+
+.input form input::placeholder {
+  color: gray;
+  font-size: 12px;
+}
+
+.input label {
+  color: gray;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
