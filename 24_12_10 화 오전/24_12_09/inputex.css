@@ -1,0 +1,14 @@
+.input {
+  display: flex;
+  background-color: whitesmoke;
+  color: gray;
+  row-gap: 5px;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.login {
+  background-color: rgb(46, 190, 46);
+  display: flex;
+  row-gap: 5px;
+}
