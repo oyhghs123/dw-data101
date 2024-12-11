@@ -1,0 +1,52 @@
+form.login {
+  /* border: 1px solid; */
+}
+
+form.login div.e {
+  border: 2px solid red;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+form.login div.e div {
+  background-color: whitesmoke;
+  display: flex;
+  max-width: 300px;
+}
+
+form.login div.e div input {
+  outline: none;
+  border: 1px solid lightgray;
+  border-right: none;
+  padding-left: 10px;
+  flex: 1;
+}
+
+form.login div.e div input:focus {
+  border-color: green;
+}
+
+form.login div.e div input::placeholder,
+form.login div.e label {
+  color: gray;
+  font-size: 12px;
+}
+
+form.login div.e div button {
+  height: 40px;
+  padding: 0 20;
+  background-color: green;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+form.login div.e div button:hover {
+  opacity: 0.8;
+}
+
+form.login div.e div button:active {
+  opacity: 0.5;
+}

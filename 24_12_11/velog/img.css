@@ -1,0 +1,10 @@
+.img {
+  display: flex;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.img div {
+  height: 100px;
+  background-color: white;
+}
