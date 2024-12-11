@@ -10,6 +10,7 @@
   /* height: 50px; */
   padding: 15px 10px;
 }
+
 .item1:first-child {
 }
 
@@ -25,6 +26,15 @@
 .brown {
   background: brown;
 }
+.green {
+  background: green;
+  align-self: end;
+}
+.blue {
+  background: blue;
+  align-self: end;
+}
+
 .item2:nth-child(3) {
   font-size: 40px;
   padding: 14.3px 20px;
@@ -35,6 +45,7 @@
   background: skyblue;
   padding: 20px 0;
   align-items: center;
+  justify-content: space-between;
 }
 .item2 {
   padding: 30px 20px;

@@ -4,41 +4,45 @@
   list-style-type: none;
 }
 
-.login_box {
-  border: 1px solid lightgray;
+div.login_box {
   border-radius: 10px;
   padding: 20px;
+  border: 1px solid lightgray;
   display: flex;
   flex-direction: column;
-  row-gap: 10px;
-  width: 300px;
+  row-gap: 20px;
 }
 
-.login_box p {
+div.login_box p,
+ul.quick_btns button {
   font-size: 12px;
-  text-align: center;
 }
 
-.login_box button.naver {
-  height: 40px;
-  width: 300px;
-  border: none;
-  background-color: rgb(22, 202, 22);
-  color: white;
-  cursor: pointer;
-  border-radius: 8px;
-}
-
-.login_box ul {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  column-gap: 14px;
-}
-
-.login_box ul button {
+ul.quick_btns button {
+  color: gray;
   background-color: transparent;
   border: none;
   cursor: pointer;
-  font-size: 12px;
+}
+
+div.login_box button.naver {
+  height: 40px;
+  border-radius: 3px;
+  background-color: rgb(44, 168, 44);
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+div.login_box button.naver:hover {
+  opacity: 0.8;
+}
+div.login_box button.naver:active {
+  opacity: 0.6;
+}
+
+ul.quick_btns {
+  display: flex;
+  column-gap: 16px;
+  justify-content: space-between;
 }
