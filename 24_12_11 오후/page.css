@@ -10,3 +10,103 @@ img {
   display: block;
   width: 100%;
 }
+
+#wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#header {
+  width: 100px;
+  margin-bottom: 50px;
+}
+#header .top {
+  padding-right: 15px;
+  text-align: right;
+}
+#header .top .top_texts {
+  display: flex;
+  justify-content: end;
+  padding: 7px 0;
+}
+
+#header .top .top_texts .top_text {
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+#header .top .top_texts .top_text:nth-child(2)::before {
+  content: "";
+  border: 2px solid gray;
+  position: absolute;
+  height: 20px;
+  left: 15px;
+}
+#header .top .top_texts .top_text:nth-child(2)::after {
+  content: "";
+  border: 2px solid gray;
+  position: absolute;
+  height: 20px;
+  right: -15px;
+}
+
+#header .nav {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+
+#header .nav .menu_list {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  font-size: 25px;
+}
+#header .nav .menu_list .menu::before {
+  cursor: pointer;
+  padding: 5px 25px;
+  position: relative;
+}
+#header .nav .menu_list .menu::before {
+  content: "";
+  border-bottom: 2px solid pink;
+  width: 100px;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 0%;
+  transition: width 1s ease;
+}
+
+#header .nav .menu_list .menu:hover::before {
+  width: 100%;
+}
+
+#header .nav .sub_meni_list {
+  position: absolute;
+  width: 100%;
+  background: beige;
+  left: 0;
+  padding: 50px 0;
+  z-index: 2;
+}
+#header .nav .sub_menu_list .sub_menu {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#header .nav .sub_menu_list .sub_menu .sub {
+}
+
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+#main .img_box {
+  /* width: calc(25% -5px); */
+  /* flex-grow 비율; flex-shrink 공간부족여부 */
+  flex: 1 1 calc(25% -5px);
+}

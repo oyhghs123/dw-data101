@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+div.login_box {
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+div.logun_box p,
+ul.btns button {
+  font-size: 12px;
+}
+
+ul.btns button {
+  color: gray;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+div.login_box button.naver {
+  height: 40px;
+  border-radius: 3px;
+  background-color: rgb(44, 168, 44);
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+div.login_box button.naver:hover {
+  opacity: 0.8;
+}
+div.login_box button.naver:active {
+  opacity: 0.6;
+}
+
+.login_modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login_modal.flex {
+  display: none;
+}
+
+div.login_modal form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.flex {
+  flex-direction: column;
+}
